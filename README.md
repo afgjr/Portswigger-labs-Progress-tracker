@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-13-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--27-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-0%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-19-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--03-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-0%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 4 of 61
-- **Practitioner**: 9 of 174
+- **Apprentice**: 5 of 61
+- **Practitioner**: 14 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
@@ -14,6 +14,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Authentication vulnerabilities**: 8/14 lab
 - **SQL injection**: 5/18 lab
 - **Access control**: 0/13 lab
+- **Path traversal**: 6/6
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -47,6 +48,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 11 | 2026-06-27 |Authentication vulnerabilities     |  2FA simple bypass|APPRENTICE   | N/A |
 | 12 | 2026-06-27 |Authentication vulnerabilities     |  2FA broken logic|PRACTITIONER   | N/A |
 | 13 | 2026-06-27 |Authentication vulnerabilities     |  Brute-forcing a stay-logged-in cookie|PRACTITIONER   | N/A |
+| 14 | 2026-07-03 |Path traversal  |  File path traversal, simple case|APPRENTICE   | N/A |
+| 15 | 2026-07-03 |Path traversal  | File path traversal, traversal sequences blocked with absolute path bypass|PRACTITIONER   | N/A |
+| 16 | 2026-07-03 |Path traversal  |  File path traversal, traversal sequences stripped non-recursively|PRACTITIONER   | N/A |
+| 17 | 2026-07-03 |Path traversal  | File path traversal, traversal sequences stripped with superfluous URL-decode   |PRACTITIONER | N/A |
+| 18 | 2026-07-03 |Path traversal  |  File path traversal, validation of start of path|PRACTITIONER   | N/A |
+| 19 | 2026-07-03 |Path traversal  |  File path traversal, validation of file extension with null byte bypass|PRACTITIONER   | N/A |
 
 
 
