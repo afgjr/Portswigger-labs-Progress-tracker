@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-19-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--03-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-0%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-24-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--04-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-8.76%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 5 of 61
-- **Practitioner**: 14 of 174
+- **Apprentice**: 6 of 61
+- **Practitioner**: 18 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
@@ -14,7 +14,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Authentication vulnerabilities**: 8/14 lab
 - **SQL injection**: 5/18 lab
 - **Access control**: 0/13 lab
-- **Path traversal**: 6/6
+- **Path traversal**: 6/6 lab
+- **Command injection**: 5/5 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -54,6 +55,10 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 17 | 2026-07-03 |Path traversal  | File path traversal, traversal sequences stripped with superfluous URL-decode   |PRACTITIONER | N/A |
 | 18 | 2026-07-03 |Path traversal  |  File path traversal, validation of start of path|PRACTITIONER   | N/A |
 | 19 | 2026-07-03 |Path traversal  |  File path traversal, validation of file extension with null byte bypass|PRACTITIONER   | N/A |
-
+| 20 | 2026-07-04 |Command injection  |  OS command injection, simple case|APPRENTICE   | N/A |
+| 21 | 2026-07-04 |Command injection  |  Blind OS command injection with time delays|PRACTITIONER   | N/A |
+| 22 | 2026-07-04 |Command injection  |  Blind OS command injection with output redirection|PRACTITIONER   | N/A |
+| 23 | 2026-07-04 |Command injection  |  Blind OS command injection with out-of-band interaction|PRACTITIONER   | N/A |
+| 24 | 2026-07-04 |Command injection  |  Blind OS command injection with out-of-band data exfiltration|PRACTITIONER   | N/A |
 
 
