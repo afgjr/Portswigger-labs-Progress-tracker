@@ -1,11 +1,11 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-24-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--04-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-8.76%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-28-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--08-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-10%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 6 of 61
+- **Apprentice**: 10 of 61
 - **Practitioner**: 18 of 174
 - **Expert**: 0 of 39
 
@@ -13,7 +13,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 
 - **Authentication vulnerabilities**: 8/14 lab
 - **SQL injection**: 5/18 lab
-- **Access control**: 0/13 lab
+- **Access control**: 4/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 
@@ -60,5 +60,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 22 | 2026-07-04 |Command injection  |  Blind OS command injection with output redirection|PRACTITIONER   | N/A |
 | 23 | 2026-07-04 |Command injection  |  Blind OS command injection with out-of-band interaction|PRACTITIONER   | N/A |
 | 24 | 2026-07-04 |Command injection  |  Blind OS command injection with out-of-band data exfiltration|PRACTITIONER   | N/A |
+| 25 | 2026-07-08 |Access control  |  Unprotected admin functionality|APPRENTICE   | N/A |
+| 26 | 2026-07-08 |Access control  |  Unprotected admin functionality with unpredictable URL|APPRENTICE   | N/A |
+| 27 | 2026-07-08 |Access control  |  User role controlled by request parameter|APPRENTICE   | N/A |
+| 28 | 2026-07-08 |Access control  |  User role can be modified in user profile|APPRENTICE   | N/A |
 
 
