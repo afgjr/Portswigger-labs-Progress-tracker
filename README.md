@@ -1,11 +1,11 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-28-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--09-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-12%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-34-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--10-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-12%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 13 of 61
+- **Apprentice**: 15 of 61
 - **Practitioner**: 19 of 174
 - **Expert**: 0 of 39
 
@@ -13,7 +13,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 
 - **Authentication vulnerabilities**: 8/14 lab
 - **SQL injection**: 5/18 lab
-- **Access control**: 8/13 lab
+- **Access control**: 10/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 
@@ -68,5 +68,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 30 | 2026-07-09 |Access control  |  User ID controlled by request parameter|APPRENTICE   | N/A |
 | 31 | 2026-07-09 |Access control  |  User ID controlled by request parameter, with unpredictable user IDs|APPRENTICE   | N/A |
 | 32 | 2026-07-09 |Access control  |  User ID controlled by request parameter with data leakage in redirect|APPRENTICE   | N/A |
+| 33 | 2026-07-10 |Access control  |  User ID controlled by request parameter with password disclosure|APPRENTICE   | N/A |
+| 34 | 2026-07-10 |Access control  |  Insecure direct object references|APPRENTICE   | N/A |
 
 
