@@ -1,19 +1,19 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-34-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--10-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-12%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-37-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--11-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-13%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 15 of 61
-- **Practitioner**: 19 of 174
+- **Practitioner**: 22 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 8/14 lab
 - **SQL injection**: 5/18 lab
-- **Access control**: 10/13 lab
+- **Access control**: 13/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 
@@ -70,5 +70,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 32 | 2026-07-09 |Access control  |  User ID controlled by request parameter with data leakage in redirect|APPRENTICE   | N/A |
 | 33 | 2026-07-10 |Access control  |  User ID controlled by request parameter with password disclosure|APPRENTICE   | N/A |
 | 34 | 2026-07-10 |Access control  |  Insecure direct object references|APPRENTICE   | N/A |
-
+| 35 | 2026-07-11 |Access control  |   Method-based access control can be circumvented|PRACTITIONER   | N/A |
+| 36 | 2026-07-11 |Access control  |  Multi-step process with no access control on one step|PRACTITIONER   | N/A |
+| 37 | 2026-07-11 |Access control  |  Referer-based access control|PRACTITIONER   | N/A |
 
