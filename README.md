@@ -1,22 +1,22 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-42-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--1-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-15%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-45-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--17-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-16%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 17 of 61
-- **Practitioner**: 25 of 174
+- **Apprentice**: 18 of 61
+- **Practitioner**: 27 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
-- **Authentication vulnerabilities**: 8/14 lab
+- **Authentication vulnerabilities**: 10/14 lab
 - **SQL injection**: 5/18 lab
 - **Access control**: 13/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
-- **File upload vulnerabilities**: 5/7 lab
+- **File upload vulnerabilities**: 6/7 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -79,3 +79,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 40 | 2026-07-15 |File upload vulnerabilities  |  Web shell upload via path traversal|PRACTITIONER   | N/A |
 | 41 | 2026-07-16 |File upload vulnerabilities  |   web shell upload via extension blacklist bypass|PRACTITIONER   | N/A |
 | 42 | 2026-07-16 |File upload vulnerabilities  |  Web shell upload via obfuscated file extension|PRACTITIONER   | N/A |
+| 43 | 2026-07-17 |File upload vulnerabilities  |  Remote code execution via polyglot web shell upload|PRACTITIONER   | N/A |
+| 44 | 2026-07-17 |Authentication vulnerabilities  |  Offline password cracking|PRACTITIONER   | N/A |
+| 45 | 2026-07-17 |Authentication vulnerabilities  |  Password reset broken logic|APPRENTICE   | N/A |
