@@ -1,22 +1,23 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-45-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--17-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-16%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-48-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--18-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-17%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 18 of 61
-- **Practitioner**: 27 of 174
+- **Apprentice**: 19 of 61
+- **Practitioner**: 29 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
 
-- **Authentication vulnerabilities**: 10/14 lab
+- **Authentication vulnerabilities**: 12/14 lab
 - **SQL injection**: 5/18 lab
 - **Access control**: 13/13 lab
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 - **File upload vulnerabilities**: 6/7 lab
+- **OAuth 2.0 authentication vulnerabilities**: 1/6 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -82,3 +83,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 43 | 2026-07-17 |File upload vulnerabilities  |  Remote code execution via polyglot web shell upload|PRACTITIONER   | N/A |
 | 44 | 2026-07-17 |Authentication vulnerabilities  |  Offline password cracking|PRACTITIONER   | N/A |
 | 45 | 2026-07-17 |Authentication vulnerabilities  |  Password reset broken logic|APPRENTICE   | N/A |
+| 46 | 2026-07-18 |Authentication vulnerabilities  |  Password reset poisoning via middleware|PRACTITIONER   | N/A |
+| 47 | 2026-07-18 |Authentication vulnerabilities  |  Password brute-force via password change|PRACTITIONER   | N/A |
+| 48 | 2026-07-18 |OAuth 2.0 authentication vulnerabilities  |  Authentication bypass via OAuth implicit flow|APPRENTICE   | N/A |
