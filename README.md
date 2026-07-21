@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-50-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--20-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-18%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-52-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--21-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-19%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 19 of 61
-- **Practitioner**: 31 of 174
+- **Practitioner**: 33 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
@@ -17,7 +17,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path traversal**: 6/6 lab
 - **Command injection**: 5/5 lab
 - **File upload vulnerabilities**: 6/7 lab
-- **OAuth 2.0 authentication vulnerabilities**: 3/6 lab
+- **OAuth 2.0 authentication vulnerabilities**: 5/6 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -86,5 +86,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 46 | 2026-07-18 |Authentication vulnerabilities  |  Password reset poisoning via middleware|PRACTITIONER   | N/A |
 | 47 | 2026-07-18 |Authentication vulnerabilities  |  Password brute-force via password change|PRACTITIONER   | N/A |
 | 48 | 2026-07-18 |OAuth 2.0 authentication vulnerabilities  |  Authentication bypass via OAuth implicit flow|APPRENTICE   | N/A |
-| 49 | 2026-07-20 |OAuth 2.0 authentication vulnerabilities  |  Forced OAuth profile linking|APPRENTICE   | N/A |
-| 50 | 2026-07-20 |OAuth 2.0 authentication vulnerabilities  |  OAuth account hijacking via redirect_uri|APPRENTICE   | N/A |
+| 49 | 2026-07-20 |OAuth 2.0 authentication vulnerabilities  |  Forced OAuth profile linking|PRACTITIONER   | N/A |
+| 50 | 2026-07-20 |OAuth 2.0 authentication vulnerabilities  |  OAuth account hijacking via redirect_uri|PRACTITIONER   | N/A |
+| 51 | 2026-07-21 |OAuth 2.0 authentication vulnerabilities  |  Stealing OAuth access tokens via an open redirect|PRACTITIONER   | N/A |
+| 52 | 2026-07-22 |OAuth 2.0 authentication vulnerabilities  |  SSRF via OpenID dynamic client registration|PRACTITIONER   | N/A |
