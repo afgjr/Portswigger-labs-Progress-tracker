@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-52-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--21-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-19%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-54-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--22-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-20%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 19 of 61
-- **Practitioner**: 33 of 174
+- **Apprentice**: 20 of 61
+- **Practitioner**: 34 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
@@ -18,7 +18,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Command injection**: 5/5 lab
 - **File upload vulnerabilities**: 6/7 lab
 - **OAuth 2.0 authentication vulnerabilities**: 5/6 lab
-
+- **Race conditions**: 2/6 lab
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
 - **Tools Used**: Burp Suite
@@ -90,3 +90,5 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 50 | 2026-07-20 |OAuth 2.0 authentication vulnerabilities  |  OAuth account hijacking via redirect_uri|PRACTITIONER   | N/A |
 | 51 | 2026-07-21 |OAuth 2.0 authentication vulnerabilities  |  Stealing OAuth access tokens via an open redirect|PRACTITIONER   | N/A |
 | 52 | 2026-07-22 |OAuth 2.0 authentication vulnerabilities  |  SSRF via OpenID dynamic client registration|PRACTITIONER   | N/A |
+| 53 | 2026-07-22 |Race conditions  |  Limit overrun race conditions|APPRENTICE   | N/A |
+| 54 | 2026-07-22 |Race conditions  |  Bypassing rate limits via race conditions|PRACTITIONER   | N/A |
