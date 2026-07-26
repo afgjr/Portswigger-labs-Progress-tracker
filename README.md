@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-54-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--22-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-20%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-56-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--26-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-21%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 20 of 61
-- **Practitioner**: 34 of 174
+- **Practitioner**: 36 of 174
 - **Expert**: 0 of 39
 
 ## Categories Covered
@@ -18,7 +18,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Command injection**: 5/5 lab
 - **File upload vulnerabilities**: 6/7 lab
 - **OAuth 2.0 authentication vulnerabilities**: 5/6 lab
-- **Race conditions**: 2/6 lab
+- **Race conditions**: 4/6 lab
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
 - **Tools Used**: Burp Suite
@@ -92,3 +92,5 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 52 | 2026-07-22 |OAuth 2.0 authentication vulnerabilities  |  SSRF via OpenID dynamic client registration|PRACTITIONER   | N/A |
 | 53 | 2026-07-22 |Race conditions  |  Limit overrun race conditions|APPRENTICE   | N/A |
 | 54 | 2026-07-22 |Race conditions  |  Bypassing rate limits via race conditions|PRACTITIONER   | N/A |
+| 55 | 2026-07-26 |Race conditions  |  Single-endpoint race conditions|PRACTITIONER   | N/A |
+| 56 | 2026-07-26 |Race conditions  |  Exploiting time-sensitive vulnerabilities|PRACTITIONER   | N/A |
