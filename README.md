@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-62-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--2-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-22%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-64-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--08-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-23%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 22 of 61
-- **Practitioner**: 39 of 174
+- **Apprentice**: 23 of 61
+- **Practitioner**: 40 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -20,6 +20,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **OAuth 2.0 authentication vulnerabilities**: 5/6 lab
 - **Race conditions**: 4/6 lab
 - **Server-side request forgery (SSRF)**: 6/7 lab
+- **API testing**: 2/5 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -102,4 +103,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 60 | 2026-08-01 |Server-side request forgery (SSRF)  |  SSRF with filter bypass via open redirection vulnerability|PRACTITIONER   | N/A |
 | 61 | 2026-08-01 |Server-side request forgery (SSRF)  |  Blind SSRF with out-of-band detection|PRACTITIONER   | N/A |
 | 62 | 2026-08-02 |Server-side request forgery (SSRF)  |  Blind SSRF with Shellshock exploitation|EXPERT   | N/A |
+| 63 | 2026-08-08 |API testing |  Exploiting an API endpoint using documentation|APPRENTICE   | N/A |
+| 64 | 2026-08-08 |API testing |  Finding and exploiting an unused API endpoint|PRACTITIONER   | N/A |
 
