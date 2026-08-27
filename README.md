@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-69-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--26-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-25%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-71-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--27-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-26%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 24 of 61
-- **Practitioner**: 44 of 174
+- **Practitioner**: 46 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -21,7 +21,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 4/6 lab
 - **Server-side request forgery (SSRF)**: 6/7 lab
 - **API testing**: 2/5 lab
-- **Cross-site request forgery (CSRF)**: 5/12 lab
+- **Cross-site request forgery (CSRF)**: 7/12 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -111,4 +111,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 67 | 2026-08-26 |Cross-site request forgery (CSRF) |  CSRF where token is not tied to user session|PRACTITIONER   | N/A |
 | 68 | 2026-08-26 |Cross-site request forgery (CSRF) |  CSRF where token validation depends on token being present|PRACTITIONER   | N/A |
 | 69 | 2026-08-26 |Cross-site request forgery (CSRF) |  CSRF where token is tied to non-session cookie|PRACTITIONER   | N/A |
+| 70 | 2026-08-27 |Cross-site request forgery (CSRF) |  CSRF where token is duplicated in cookie|PRACTITIONER   | N/A |
+| 71 | 2026-08-27 |Cross-site request forgery (CSRF) |  SameSite Lax bypass via method override|PRACTITIONER   | N/A |
 
