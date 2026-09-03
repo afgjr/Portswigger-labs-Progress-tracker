@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-76-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--29-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-28%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-80-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--03-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-29%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 25 of 61
-- **Practitioner**: 51 of 174
+- **Practitioner**: 55 of 174
 - **Expert**: 1 of 39
 
 ## Categories Covered
@@ -23,6 +23,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **API testing**: 2/5 lab
 - **Cross-site request forgery (CSRF)**: 11/12 lab
 - **DOM-based vulnerabilities**: 1/7 lab
+- **Server-side template injection**: 4/7 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -119,4 +120,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 74 | 2026-08-29 |Cross-site request forgery (CSRF)|  CSRF with broken Referer validation|PRACTITIONER   | N/A |
 | 75 | 2026-08-29 |Cross-site request forgery (CSRF)|  CSRF where Referer validation depends on header being present|PRACTITIONER   | N/A |
 | 76 | 2026-08-29 |Cross-site request forgery (CSRF)|  SameSite Strict bypass via sibling domain|PRACTITIONER   | N/A |
+| 77 | 2026-09-03 |Server-side template injection|  Server-side template injection in an unknown language with a documented exploit|PRACTITIONER   | N/A |
+| 78 | 2026-09-03 |Server-side template injection|  Basic server-side template injection|PRACTITIONER   | N/A |
+| 79 | 2026-09-03 |Server-side template injection|  Basic server-side template injection (code context)|PRACTITIONER   | N/A |
+| 80 | 2026-09-03 |Server-side template injection|  Server-side template injection using documentation|PRACTITIONER   | N/A |
 
