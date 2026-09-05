@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-83-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--04-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-30%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-86-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--05  -yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-31%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 27 of 61
-- **Practitioner**: 56 of 174
-- **Expert**: 1 of 39
+- **Apprentice**: 21 of 61
+- **Practitioner**: 57 of 174
+- **Expert**: 2 of 39
 
 ## Categories Covered
 
@@ -23,8 +23,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **API testing**: 2/5 lab
 - **Cross-site request forgery (CSRF)**: 11/12 lab
 - **DOM-based vulnerabilities**: 1/7 lab
-- **Server-side template injection**: 5/7 lab
-- **Clickjacking**: 2/5 lab
+- **Server-side template injection**: 6/7 lab
+- **Clickjacking**: 4/5 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -128,4 +128,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 81 | 2026-09-04 |Server-side template injection|  Server-side template injection with information disclosure via user-supplied objects|PRACTITIONER   | N/A |
 | 82 | 2026-09-04 |Clickjacking|  Basic clickjacking with CSRF token protection|APPRENTICE   | N/A |
 | 83 | 2026-09-04 |Clickjacking|  Clickjacking with form input data prefilled from a URL parameter|APPRENTICE   | N/A |
+| 84 | 2026-09-05 |Clickjacking|  Clickjacking with a frame buster script|APPRENTICE   | N/A |
+| 85 | 2026-09-05 |Clickjacking|  Exploiting clickjacking vulnerability to trigger DOM-based XSS|PRACTITIONER   | N/A |
+| 86 | 2026-09-05 |Server-side template injection|  Server-side template injection in a sandboxed environment|Expert   | N/A |
 
